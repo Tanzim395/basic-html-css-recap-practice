@@ -1,0 +1,20 @@
+.container {
+    height: 800px;
+    width: 1000px;
+    border: 2px solid orangered;
+    /* Flex Property--> 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    grid-gap: 20px;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
